@@ -1,5 +1,5 @@
 function solve(word, start,end){
-    const newWord = word.slice(start, end + 1)
+    let newWord = word.substring(start, end + start)
     console.log(newWord)
 }
 
